@@ -1,0 +1,1 @@
+E:\unity2019\Unity 2019.1.0a8\Editor\Unity.exe -projectPath E:\xiangmu\Jenkinsapk -executeMethod JenkinsAdapter.Build -quit-batchmode-logFile build.log
