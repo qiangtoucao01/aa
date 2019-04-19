@@ -1,0 +1,20 @@
+dir='/Users/admin/data/jenkins/workspace/APP/xxx/app/build/outputs/apk'
+domain='/Users/admin/data/jenkins/workspace/APP/xxx/app/build/outputs/apk'
+uri=`ls $dir`
+#type='0release'
+#if [ "$#${BUILD_TYPE}" != "$type" ]; then
+#curl -F "file=@$domain/$uri" -F "uKey=ukey" -F "_api_key=api_key" http://www.pgyer.com/apiv1/app/upload
+#fi
+RESULT=$(curl -F "file=@$domain/$uri" -F "uKey=ukey" -F "_api_key=api_key"  http://www.pgyer.com/apiv1/app/upload)
+appQRCodeURL=$(echo "$RESULT" | sed "s/.*\"appQRCodeURL\":\([^,}]*\).*/\1/g")
+merchantUrl=$(echo $appQRCodeURL | sed 's:\\\/:\/:g')
+
+echo Desc: $merchantUrl
+
+Set build description 的代码
+^Desc: (.*)
+<img src=\1>
+task的代码。
+clean assemble${PRODUCT_FLAVORS}${BUILD_TYPE}
+--stacktrace
+--debug
