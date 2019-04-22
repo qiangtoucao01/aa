@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/10649/Desktop/jenkins2.apk
+E:/xiangmu/Jenkinsapk/./test.apk
 SceneListBegin?
 Assets/Scenes/Main.unity
 SceneListEnd?

@@ -239,8 +239,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/10649/Desktop/android.keystore
-  AndroidKeyaliasName: android.keystore
+  AndroidKeystoreName: E:\xiangmu\Jenkinsapk\user.keystore
+  AndroidKeyaliasName: userzs
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
