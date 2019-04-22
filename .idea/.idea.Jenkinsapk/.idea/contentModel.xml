@@ -4,10 +4,14 @@
     <e p="C:\Users\10649\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\10649\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Jenkinsapk.-401949852.00" t="ExcludeRecursive" />
     <e p="E:\xiangmu\Jenkinsapk" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Scripts" t="Include">
+        <e p="Editor" t="Include">
+          <e p="APKBuild.cs" t="Include" />
           <e p="JenkinsAdapter.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
           <e p="Main.cs" t="Include" />
         </e>
       </e>
