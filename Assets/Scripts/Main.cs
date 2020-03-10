@@ -8,6 +8,7 @@ public class Main : MonoBehaviour
     {
         GUI.skin.label.fontSize = 40; 
         GUI.Label(rect, "Hello Jenkins");
+        Debug.Log(23);
     }
 
 }
